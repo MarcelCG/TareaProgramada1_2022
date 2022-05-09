@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/c/Users/admin/Documents/GitHub/Programada1_Envios'
+mkdir -p bin
+g++ -g -c --std=c++17 src/calculadora.cpp -o bin/calculadora.o
+g++ -g -c --std=c++17 src/main.cpp -o bin/main.o
+g++ -g -o bin/tiposyclases bin/calculadora.o bin/main.o
+make: Leaving directory '/mnt/c/Users/admin/Documents/GitHub/Programada1_Envios'
+ 
